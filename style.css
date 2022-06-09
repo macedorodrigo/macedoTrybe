@@ -1,4 +1,27 @@
-p {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p{
   font-size: 30px;
   color: blue;
 }
+.linkedin {
+  width: 30px;
+}
+.fotoLogo{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px%;
+}
+/* .juntinhos {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  width: 600px;
+  border: 1px solid black;
+  justify-content: space-around;
+} */
+/* .juntinhos a {
+  margin: 0px 16px; */
