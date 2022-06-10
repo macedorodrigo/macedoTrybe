@@ -1,20 +1,41 @@
-* {
+*{
+  background-color: azure;
   margin: 0;
   padding: 0;
 }
 
-p{
+p {
   font-size: 30px;
   color: blue;
 }
-.linkedin {
-  width: 30px;
-}
-.fotoLogo{
+.fotoLogo {
   border-radius: 50%;
   width: 200px;
-  height: 200px%;
+  height: 200px;
 }
+.logoRedes {
+  width: 40px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20%;
+
+}
+.redesSociais {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  /* background-color: black; */
+}
+/* .barraDeBaixo {
+  border: 2px solid rgb(170, 35, 35);
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  } */
+.meuNome{
+  text-align: center;
+}
+
 /* .juntinhos {
   display: flex;
   align-content: center;
